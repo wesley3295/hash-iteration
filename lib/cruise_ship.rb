@@ -8,4 +8,13 @@
 
 def select_winner(passengers)
   # add the code snippet here!
+
+ passengers.each do |suite, name|
+ if name.start_with?("A") && suite[0]
+  
+ end
+ return "#{name}"
 end
+end
+
+
